@@ -1,0 +1,56 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Symbol processing related
+**/build/
+
+# Android related
+**/android/**/gradle-wrapper.jar
+**/android/.gradle
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+
+# Coverage
+coverage/
+
+# Exclude AI lab and other non-target directories
+state_interaksi_ai_707012400017/
+tubes_literaikapi_707012400017/
+screenshots_soal2/
+
+# Root local reports, scripts, and media (do not push to repo)
+/*.pdf
+/*.py
+/*.png
+/*.jpg
+/*.jpeg
+/screenshots/
